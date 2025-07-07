@@ -16,7 +16,7 @@ class Calculator {
     add(x, y) {
         return x + y;
     }
-    minus(x, y) {
+    subtract(x, y) {
         return x - y;
     }
     multiply(x, y) {
@@ -32,7 +32,7 @@ class Calculator {
 
 const calc = new Calculator();
 console.log(calc.add(5, 3)); // 8
-console.log(calc.minus(10, 4)); // 6
+console.log(calc.subtract(10, 4)); // 6
 console.log(calc.multiply(3, 6)); // 18
 console.log(calc.divide(8, 0)); // Ділення на нуль неможливе
 console.log(calc.divide(8, 4)); // 2
