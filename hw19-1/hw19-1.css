@@ -1,0 +1,40 @@
+#widget {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #d7e9f8;
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4b2c82;
+}
+
+#city {
+  margin-bottom: 10px;
+}
+
+#icon {
+  width: 100px;
+  height: 100px;
+}
+
+#temp {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#desc {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#updateBtn {
+  padding: 10px 25px;
+  background-color: #030c8a;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
