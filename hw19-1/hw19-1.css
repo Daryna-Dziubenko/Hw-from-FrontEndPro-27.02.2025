@@ -1,40 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1fbfc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 #widget {
-  max-width: 500px;
-  margin: 40px auto;
-  padding: 20px;
-  background: #d7e9f8;
-  border-radius: 12px;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #4b2c82;
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    color: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    position: relative;
 }
 
 #city {
-  margin-bottom: 10px;
+    font-size: 1.4em;
+    margin-bottom: 10px;
 }
 
 #icon {
-  width: 100px;
-  height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 #temp {
-  font-size: 28px;
-  font-weight: bold;
-  margin: 10px 0;
+    font-size: 2.5em;
+    margin: 10px 0;
 }
 
 #desc {
-  font-style: italic;
-  margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+#hum,
+#pressure,
+#speed {
+    font-size: 0.95em;
+    margin: 4px 0;
 }
 
 #updateBtn {
-  padding: 10px 25px;
-  background-color: #030c8a;
-  border: none;
-  border-radius: 25px;
-  color: #ffffff;
-  font-weight: 600;
-  cursor: pointer;
+    margin-top: 15px;
+    background-color: #ffffff;
+    color: #1e3c72;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#updateBtn:hover {
+    background-color: #d0e7ff;
 }

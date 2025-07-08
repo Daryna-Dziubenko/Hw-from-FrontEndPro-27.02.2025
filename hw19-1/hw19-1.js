@@ -19,6 +19,9 @@ async function getWeather() {
     document.getElementById('city').textContent = `Weather in: ${data.name}`;
     document.getElementById('temp').textContent = `Temperature: ${data.main.temp}°C`;
     document.getElementById('desc').textContent = `Description: ${data.weather[0].description}`;
+    document.getElementById('hum').textContent = `Humidity: ${data.main.humidity}%`;
+    document.getElementById('pressure').textContent = `Pressure: ${data.main.pressure}hPa`;
+    document.getElementById('speed').textContent = `Wind: ${data.wind.speed}km/h`;
     const iconCode = data.weather[0].icon;
     const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
     document.getElementById('icon').src = iconUrl;
